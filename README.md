@@ -13,6 +13,8 @@ import string
 import csv
 #data- messages from whatsapp
 #the crawling data from phone files
+#1- female
+#0- male
 df = pd.read_csv('C:\\Users\\DELL\\Desktop\\data_scientist\\data\\data.txt', sep="\n", header = None, error_bad_lines=False)
 df['gender'] = pd.read_csv('C:\\Users\\DELL\\Desktop\\data_scientist\\data\\target.txt', sep="\n", header = None, error_bad_lines=False)
 ```
